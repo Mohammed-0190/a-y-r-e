@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="B(^DPL/g~6DS1mp}QH;d" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="pxA9(TfHlxkpMc#lV]`#"><field name="LEDS">`
+        # # # # # 
+        . # # # # 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field><next><block type="basic_show_icon" id="bTeLQ;WFq@Gagibxa^t`"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="i">IconNames.Heart</field><next><block type="device_set_led_color" id="?.#UYb/1t7CMqe?wmpDw"><value name="color"><shadow type="colorNumberPicker" id="2Wdk~/fDgSeEc143;K;q"><field name="value">0xff0000</field></shadow></value><next><block type="playMelody" id="M686FuoKNrSk=8Spyb_5"><value name="melody"><shadow type="melody_editor" id="#$}GQa_B`r]m$t=?h=EP"><field name="melody">"- E C C E F B A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Y^2:|W+GteBth`H-3UiD"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="controls_if" id="bUNO!AYeYc,Kb{nm.i-Z"><value name="IF0"><shadow type="logic_boolean" id="C55=?aM[kvb3g$D4@}OO"><field name="BOOL">TRUE</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
